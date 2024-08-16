@@ -1,4 +1,4 @@
-### CH32 Deep Sleep
+# CH32 Deep Sleep
 Simple deep sleep with autowakeup for CH32VXXX RISC-V
 Based on https://github.com/cnlohr/ch32v003fun
 
@@ -17,7 +17,7 @@ Untested, but should work:
 
 ## Functions:
 
-# DeepSleep.init(BASE,NUM)
+### DeepSleep.init(BASE,NUM)
 
 Set base periode to BASE and sleep duration to NUM base periodes.
 Default is 480ms and 2 periodes --> ~ 1sec.
@@ -41,11 +41,11 @@ BASE_MS_80
 
 BASE_MS_480
 
-# DeepSleep.sleep()
+### DeepSleep.sleep()
 
 Enter deep sleep for the set amount of time, abutowakeup.
 
-# DeepSleep.sleepI()
+### DeepSleep.sleepI()
 
 Enter deep sleep for the set amount of time, autowakeup and IRQ wakeup.
 
