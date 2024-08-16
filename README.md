@@ -15,8 +15,10 @@ Untested, but should work:
 * CH32V30x
 * CH32X035
 
-Functions:
-* DeepSleep.init(BASE,NUM);
+## Functions:
+
+# DeepSleep.init(BASE,NUM)
+
 Set base periode to BASE and sleep duration to NUM base periodes.
 Default is 480ms and 2 periodes --> ~ 1sec.
 You can change the values at any time by clling DeepSleep.init() again.
@@ -24,18 +26,27 @@ You can change the values at any time by clling DeepSleep.init() again.
 Valid values for BASE:
 
 BASE_MS_1
+
 BASE_MS_2
+
 BASE_MS_4
+
 BASE_MS_8
+
 BASE_MS_16
+
 BASE_MS_32
+
 BASE_MS_80
+
 BASE_MS_480
 
-* DeepSleep.sleep();
+# DeepSleep.sleep()
+
 Enter deep sleep for the set amount of time, abutowakeup.
 
-* DeepSleep.sleepI();
+# DeepSleep.sleepI()
+
 Enter deep sleep for the set amount of time, autowakeup and IRQ wakeup.
 
 ## Note
