@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map LowPower
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+DeepSleep	KEYWORD2
+init        KEYWORD2
+sleep		KEYWORD2
+sleepI		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+BASE_MS_1   LITERAL1
+BASE_MS_2   LITERAL1
+BASE_MS_4   LITERAL1
+BASE_MS_8   LITERAL1
+BASE_MS_16  LITERAL1
+BASE_MS_32  LITERAL1
+BASE_MS_80  LITERAL1
+BASE_MS_480 LITERAL1
