@@ -25,21 +25,14 @@ You can change the values at any time by clling DeepSleep.init() again.
 
 Valid values for BASE:
 
-BASE_MS_1
-
-BASE_MS_2
-
-BASE_MS_4
-
-BASE_MS_8
-
-BASE_MS_16
-
-BASE_MS_32
-
-BASE_MS_80
-
-BASE_MS_480
+* BASE_MS_1
+* BASE_MS_2
+* BASE_MS_4
+* BASE_MS_8
+* BASE_MS_16
+* BASE_MS_32
+* BASE_MS_80
+* BASE_MS_480
 
 ### DeepSleep.sleep()
 
